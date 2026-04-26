@@ -1,0 +1,37 @@
+{
+  "name": "swift-concurrency-skill",
+  "owner": {
+    "name": "Badarinath Venkatnarayansetty"
+  },
+  "metadata": {
+    "description": "Swift Concurrency skill for Claude Code — async/await, actors, tasks, and structured concurrency",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "swift-concurrency",
+      "source": "./",
+      "description": "Diagnose data races, convert completion handlers to async/await, fix actor isolation errors, and resolve Swift concurrency warnings",
+      "version": "1.0.0",
+      "keywords": [
+        "swift",
+        "concurrency",
+        "async-await",
+        "actor",
+        "task",
+        "taskgroup",
+        "asyncstream",
+        "mainactor",
+        "sendable",
+        "structured-concurrency",
+        "data-race",
+        "swift-6"
+      ],
+      "category": "development",
+      "strict": false,
+      "skills": [
+        "./skills"
+      ]
+    }
+  ]
+}
