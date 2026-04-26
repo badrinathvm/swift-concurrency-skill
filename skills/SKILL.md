@@ -1,7 +1,9 @@
-# swift-concurrency-skill
+---
+name: swift-concurrency
+description: Diagnose data races, convert completion handlers to async/await, fix actor isolation errors, and resolve Swift concurrency warnings
+---
 
-**Name:** swift-concurrency-skill
-**Description:** Diagnose data races, convert completion handlers to async/await, fix actor isolation errors, and resolve Swift concurrency warnings in the PickleRite codebase.
+# swift-concurrency-skill
 
 ---
 
